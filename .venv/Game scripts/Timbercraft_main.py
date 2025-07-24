@@ -5,8 +5,6 @@ class TimbercraftWindow(arcade.Window):
         screen_width, screen_height = arcade.get_display_size()
         super().__init__(screen_width, screen_height, title="Timbercraft", fullscreen=True)
 
-import arcade
-
 def main():
     window = TimbercraftWindow()
     arcade.run()
